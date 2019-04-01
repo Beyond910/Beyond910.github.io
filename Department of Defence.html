@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Gov</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="defence.html.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark" style="background: black;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html"><img src="images/gov.png" height="192" width="232"/></a>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="nav-content">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Department of Defence.html">Department of Defence</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page3.html">Department of Communication & The Arts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page4.html">Department of Human Services</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="page5.html">Parliament House</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<p>Enter the Pin Code:</p>
+<input id="pin" type="number">
+<button type="button" onclick="checkPin()">Submit</button>
+<p id="feedback">   </p>
+
+
+</body>
+</html>
