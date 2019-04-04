@@ -6,7 +6,7 @@ function checkPin() {
    if (x == "1234") {
        text = "Missile Launched! <p><img class=\"img-fluid\"src=\"images/Javelin.gif\"></p>";
    } else {
-       text = "Incorrect Pin <p><img class=\"img-fluid\"src=\"images/error-comp.gif\"></p>";
+       text = "FBI OPEN UP! <p><img class=\"img-fluid\"src=\"images/FBI.gif\"></P>";
    }
 
    document.getElementById("feedback").innerHTML = text;
