@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Your Gov.css">
+    <script src="JavaScrpit%20and%20communication.js"></script>
 </head>
 <body>
 
@@ -43,6 +44,8 @@
     </div>
 </nav>
 
+
+
     <style>
         h1 {
             font-size: 40px;
@@ -63,6 +66,40 @@
 <p></p>
 <p></p>
 
-
+<div class="container-fluid">
+    <h2 class="h2">Network Heatmap</h2>
+    <p><strong>NB:</strong> This page refreshes every 5 seconds.</p>
+    <div class="row">
+        <div class="col-sm-4">
+            <h4 class="h4 text-center">NBN</h4>
+            <span class="glyphicon glyphicon-ok"></span><h1 id="nbnSymbol" class="glyphicon glyphicon-ok"></h1>
+            <p class="text-center">The NBN is currently performing <strong><a id="nbn"></a></strong>.</p>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="h4 text-center">ADSL</h4>
+            <p class="text-center">The ADSL network is currently performing <strong><a id="adsl"></a></strong>.</p>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="h4 text-center">Television</h4>
+            <p class="text-center">The Television signals are currently performing <strong><a id="tv"></a></strong>.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h4 class="h4 text-center">Phone</h4>
+            <p class="text-center">The Phone service is currently performing <strong><a id="phone"></a></strong>.</p>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="h4 text-center">Radio</h4>
+            <p class="text-center">The radio signals is currently performing <strong><a id="radio"></a></strong>.</p>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="h4 text-center">Foxtel</h4>
+            <p class="text-center">The Foxtel signals are currently performing <strong><a id="foxtel"></a></strong>.</p>
+        </div>
+    </div>
+</div>
+<!-- InstanceEndEditable -->
+<!-- Site Footer -->
 </body>
 </html>
