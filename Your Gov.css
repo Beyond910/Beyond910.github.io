@@ -1,6 +1,6 @@
-body {  background-image: url(https://www.aiesec.nl/wp-content/uploads/2017/09/where-can-you-do-a-voluntary-project.jpg); }
-
-
-
-
-
+body{
+background-image: url("https://www.aiesec.nl/wp-content/uploads/2017/09/where-can-you-do-a-voluntary-project.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
