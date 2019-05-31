@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="Your Gov.css">
 
 
+
+
 </head>
 <body>
 
@@ -49,39 +51,65 @@
 
 
 <style>
-    div.a {
-        font-size: 30px;
+    h1 {
+        border: 5px solid black;
     }
 </style>
 
-<h1>The font-size Property</h1>
 
-<p style="color:red" h1 class="a">The Australian Defence Force (ADF) is constituted under the Defence Act 1903, its mission is to defend Australia and its national interests. In fulfilling this mission, Defence serves the Government of the day and is accountable to the Commonwealth Parliament which represents the Australian people to efficiently and effectively carry out the Government's defence policy</h1>
+<h1>The Australian Defence Force (ADF) is constituted under the Defence Act 1903, its mission is to defend Australia and its national interests. In fulfilling this mission, Defence serves the Government of the day and is accountable to the Commonwealth Parliament which represents the Australian people to efficiently and effectively carry out the Government's defence policy</h1>
+
+<style>
+    h2 {
+        position: static;
+        left: 1px;
+        top: 12px;
+    }
+</style>
 
 
-<div class="w3-content w3-display-container">
-    <img class="mySlides" src="images/tank.jpg">
-    <img class="mySlides" src="images/RTX4IIQP-1024x678.jpg">
-    <img class="mySlides" src="">
-    <div class="w3-center w3-display-bottommiddle" style="width:100%">
-        <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
-        <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
-        <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-        <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-        <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
-    </div>
+
+
+
+<div class="pincode2">
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="images/tank.jpg" style="width:100%">
+    <img class="mySlides" src="images/a-102.jpg" style="width:100%">
+    <img class="mySlides" src="images/9-1.jpg" style="width:100%">
+</div>
 </div>
 
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 9000); // Change image every 2 seconds
+    }
+</script>
 
 
-
+<div class="pincode">
 <p>Enter the Pin Code for the Missile Launched:</p>
 <input id="pin" type="number">
 <button type="button" onclick="checkPin()">Submit</button>
 <p id="feedback"></p>
-
+</div>
 
 </body>
 </html>
+<p>&nbsp</p>
 
-<p> Copyright © Your Gov by Samuel James Sheridan 2099</p>
+<footer class="footer">
+    <p> Copyright © Your Gov by Samuel James Sheridan 2019</p>
+</footer>

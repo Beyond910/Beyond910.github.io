@@ -1,7 +1,34 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e2e6ea;
+    color: #000000;
+    text-align: center;
+}
 body{
-background-image: url(https://previews.customer.envatousercontent.com/h264-video-previews/6984fa95-404a-4c3a-9513-5e73901e53dd/19681132.mp4);
+background-image: url(https://www.atiramhotels.com/wp-content/uploads/2018/12/grey-dark-vintage-background-texture-510x300.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 }
 
+.pincode {
+    position: relative;
+    left: 11px;
+    bottom: 0;
+    width: 177px;
+    background-color: #e2e6ea;
+    color: #000000;
+    text-align: center;
+}
+
+.pincode2 {
+    position: relative;
+    left: 140px;
+    bottom: 0;
+    width: 1010%;
+    color: #000000;
+    text-align: center;
+}
