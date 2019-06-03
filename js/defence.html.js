@@ -4,9 +4,9 @@ function checkPin() {
    x = document.getElementById("pin").value;
    // If x is Not a Number or less than one or greater than 10
    if (x == "1234") {
-       text = "Missile Launched! <p><img class=\"img-fluid\"src=\"images/Javelin.gif\"></p>";
+       text = "Missile Launched! <p><img class=\"img-fluid\"src=\"../images/Javelin.gif\"></p>";
    } else {
-       text = "FBI OPEN UP! <p><img class=\"img-fluid\"src=\"images/Fbi.gif\"></P>";
+       text = "FBI OPEN UP! <p><img class=\"img-fluid\"src=\"../images/Fbi.gif\"></P>";
    }
 
    document.getElementById("feedback").innerHTML = text;
